@@ -1,6 +1,10 @@
 # SMART EMAIL CLASSIFIER
 
-Email topic classification using unsupervised and supervised machine learning algorithms
+Email topic classification using unsupervised and supervised machine learning algorithms.
+
+The jupyter notebooks are run using python 3.
+
+The requirements to run the notebooks are in the file prerequisites.txt
 
 The project is divided in four folders:
 
