@@ -1,0 +1,36 @@
+This file contains the list of prerequisites to be able to run the notebooks:
+
+a) python 3 and the following modules: pandas, os, codecs, tqdm, email, numpy, multiprocessing, gensim, nltk, string, re, bs4, warnings, matplotlib, pickle, random, csv, wordcloud, pyLDAvis, math, sklearn, argparse, sys, wikipedia, time, operator, scikitplot, xgboost
+
+Most of these can be installed using the basic Anaconda installation. 
+
+b) Install the nltk data
+
+In the "preprocessor" (#2) notebook, there is the option to uncomment the line:
+ # nltk.download()
+
+A window will open to ask what nltk data you want to download.
+
+c) ENRON database data
+
+The ENRON email May 7, 2015 Version can be downloaded from here:
+
+http://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz
+
+Then, the file must be decompressed. The following command should be updated: (i) where the enron database wa downloaded (downloads folder) (ii) the path to the github folder
+
+tar xvzf ~/Downloads/enron_mail_20150507.tar.gz -C path_to_folder/email_classification/data
+
+d) Word embeddings
+
+The GoogleNews-vectors-negative300.bin.gz pretrained word embedding model should be downloaded from 
+
+https://github.com/mmihaltz/word2vec-GoogleNews-vectors
+
+or 
+
+https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
+
+and put in the data folder: 
+
+'path_to_folder/email_classification/data/GoogleNews-vectors-negative300.bin.gz'
